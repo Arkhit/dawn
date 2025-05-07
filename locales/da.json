@@ -177,7 +177,48 @@
       "product_variants": "Produktvarianter",
       "taxes_included": "Inklusive skatter.",
       "duties_included": "Inklusive told.",
-      "duties_and_taxes_included": "Inklusive told og skatter."
+      "duties_and_taxes_included": "Inklusive told og skatter.",
+      "unit_price": {
+        "per_item": {
+          "single": "{{price}} pr. stk.",
+          "one": "{{price}} pr. {{count}} vare",
+          "other": "{{price}} pr. {{count}} varer"
+        },
+        "per_unit": {
+          "single": "{{price}}/{{unit}}",
+          "one": "{{price}}/{{count}}{{unit}}",
+          "other": "{{price}}/{{count}}{{unit}}"
+        },
+        "per_unit_accessibility": {
+          "single": "{{price}} pr. {{unit}}",
+          "one": "{{price}} pr. {{count}}{{unit}}",
+          "other": "{{price}} pr. {{count}}{{unit}}"
+        },
+        "unit": {
+          "mg": "mg",
+          "g": "g",
+          "kg": "kg",
+          "ml": "ml",
+          "cl": "cl",
+          "l": "l",
+          "m3": "m³",
+          "mm": "mm",
+          "cm": "cm",
+          "m": "m",
+          "m2": "m²",
+          "oz": "oz",
+          "lb": "pund",
+          "floz": "fl oz",
+          "pt": "pt.",
+          "qt": "qt",
+          "gal": "gal",
+          "in": "tommer",
+          "ft": "fod",
+          "yd": "yd",
+          "ft2": "fod²",
+          "item": "vare"
+        }
+      }
     },
     "modal": {
       "label": "Mediegalleri"
